@@ -1,6 +1,6 @@
-#I "packages/Fake/tools"
-#r "FakeLib.dll"
-#r "packages/FSharp.Data/lib/net40/FSharp.Data.dll"
+#I "../../../packages"
+#r "Fake/tools/FakeLib.dll"
+#r "FSharp.Data/lib/net40/FSharp.Data.dll"
 
 open Fake
 open Fake.Git.Information
